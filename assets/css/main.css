@@ -1,0 +1,66 @@
+.content {
+    font-family: 'Lato', sans-serif !important;
+    font-size: 14px;
+    color: rgb(43, 43, 43);
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top:  -150px;
+}
+
+.content .img {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.content .img img {
+    border-radius: 25px;
+}
+
+.context .text {
+    width: 100;
+}
+
+.content h2 {
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.content h3 {
+    margin-top: 0;
+    font-size: 36px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.content ul {
+    list-style-type: none;
+    text-align: center; 
+    padding: 0;
+    margin: 0;
+}
+
+.content ul li {
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+}
+
+a:active, a:hover, a:link, a:visited {
+    color: rgb(43, 43, 43);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
